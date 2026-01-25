@@ -1,0 +1,10 @@
+A
+Hello,Can you tell me ...
+B
+Please help me !
+A
+What's wrong?
+B
+There are so many monsters in this mine cave!
+A
+OK.

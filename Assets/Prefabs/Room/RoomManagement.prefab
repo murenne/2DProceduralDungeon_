@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5080443667369987666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5080443667369987665}
+  m_Layer: 0
+  m_Name: GeneratePosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5080443667369987665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5080443667369987666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5080443667758137679}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5080443667758137681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5080443667758137679}
+  - component: {fileID: 5080443667758137680}
+  m_Layer: 0
+  m_Name: RoomManagement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5080443667758137679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5080443667758137681}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5080443667369987665}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5080443667758137680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5080443667758137681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4fdeab34f66834da1e6a61eb93839c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomFloor: {fileID: 7494482652289690458, guid: 0b301eb8257a43b47a445e21ce4af729, type: 3}
+  _roomCount: 10
+  _startRoomColor: {r: 0, g: 1, b: 0.110455275, a: 0}
+  _endRoomColor: {r: 1, g: 0, b: 0, a: 0}
+  _startRoom: {fileID: 0}
+  _endRoom: {fileID: 0}
+  _generatorTransform: {fileID: 5080443667369987665}
+  _xOffset: 20
+  _yOffset: 12
+  _roomLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  _roomDirection: 0
+  _roomList: []
+  _wallTpyes:
+    WallU: {fileID: 92064544080694617, guid: 3052a6c2dc5d72346a12a4fcb01b9853, type: 3}
+    WallR: {fileID: 92064544080694617, guid: 68d1e8ecc74a2a44f975bcd291e0e466, type: 3}
+    WallD: {fileID: 92064544080694617, guid: 159d3a542e7b929409ae42da9672fa28, type: 3}
+    WallL: {fileID: 92064544080694617, guid: dddfebbd36294c74995d5278b6e52eb4, type: 3}
+    WallUR: {fileID: 92064544080694617, guid: 472b10081f0f3394eb079b82c1f9d15d, type: 3}
+    WallUD: {fileID: 92064544080694617, guid: fc6bb5afd6c6bc04aba35abcb1be6ce5, type: 3}
+    WallUL: {fileID: 92064544080694617, guid: 3e5f75854f404a04b911d2d16c5bf31f, type: 3}
+    WallRD: {fileID: 92064544080694617, guid: 292bf104a258c0a4b98dd401832c7644, type: 3}
+    WallRL: {fileID: 92064544080694617, guid: 2b6e326f296a2f14384b0af2d648e024, type: 3}
+    WallDL: {fileID: 92064544080694617, guid: f101ea9b8f05e0042b78f0f9e3493d88, type: 3}
+    WallURD: {fileID: 92064544080694617, guid: 78cf0ac3b5c06ac4796fc4d07c64c76b, type: 3}
+    WallURL: {fileID: 92064544080694617, guid: 128d3171248e3e541acd0101e6ea8288, type: 3}
+    WallRDL: {fileID: 92064544080694617, guid: e508a81f13aa8364c811d354747e5099, type: 3}
+    WallDLU: {fileID: 92064544080694617, guid: cdf1e841b7745b640ba919928c01e0fa, type: 3}
+    WallURDL: {fileID: 92064544080694617, guid: 5a50537dd463c9d4fb968cf05bf75123, type: 3}
+  _maxStepNumber: 0
+  _enemyArray:
+  - {fileID: 1752204980289294934, guid: ecd8d7be0f9304466b1a20ab787752e5, type: 3}
+  - {fileID: 8775069305465588103, guid: 68795a909e492f745885a832db019ec9, type: 3}
+  - {fileID: 7027626865990141125, guid: f54eb04456c7c470ea72ee9b209056d0, type: 3}
+  - {fileID: 4974310572784137040, guid: 8398148821e894b44aea9e1108c094eb, type: 3}
