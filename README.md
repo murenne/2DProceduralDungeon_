@@ -6,7 +6,20 @@ This is a lightweight and simple dungeon generator project.
 It was the very first project I created when I started learning Unity.
 I spent some time completely refactoring and open-sourcing it, making it suitable as a reference for beginners getting started with Unity.
 
+## Tech Stack
+
+| Category | Technology | Version | Description |
+| :--- | :--- | :--- | :--- |
+| **Game Engine** | Unity | 2022.3.36f1 | Core game development engine |
+| **Render Pipeline** | Built-in Render Pipeline | Built-in | Default Unity rendering pipeline |
+| **Animation** | 2D Animation | 9.1.1 | 2D skeletal animation and rigging tools |
+| **Algorithm** | Random Walk | - | Procedural map generation algorithm |
+| **Algorithm** | A* Pathfinding (Simplified) | - | Connectivity check and enemy pathfinding |
+
+---
+
 * [2D Simple Dungeon Generator](#2DProceduralDungeon)
+    * [Tech Stack](#tech-stack)
     * [Getting Started](#getting-started)
     * [Control](#control)
     * [Attack](#attack)

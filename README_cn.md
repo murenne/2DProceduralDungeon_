@@ -6,8 +6,22 @@
 是我最开始学Unity时自己制作的第一个项目
 我花了一些时间把它完全重构并开源，适合新手入门Unity时作为参考
 
+## Tech Stack
+
+| 类别 | 技术 | 版本 | 描述 |
+| :--- | :--- | :--- | :--- |
+| **游戏引擎** | Unity | 2022.3.36f1 | 核心游戏开发引擎 |
+| **渲染管线** | Built-in Render Pipeline | 内置 | 官方默认渲染管线 |
+| **动画系统** | 2D Animation | 9.1.1 | 2D 骨骼动画与角色绑定工具 |
+| **算法** | 随机游走 | - | 程序化地图生成算法 |
+| **算法** | A* 寻路（简化版） | - | 连通性检查与敌人寻路 |
+
+---
+
 <!--ts-->
+
 * [2D Simple Dungeon Generator](#2DProceduralDungeon)
+    * [Tech Stack](#tech-stack)
     * [Getting Started](#getting-started)
     * [Control](#control)
     * [Attack](#attack)
